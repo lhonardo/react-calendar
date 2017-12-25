@@ -86,7 +86,7 @@ var Calendar = function (_Component) {
       _this.setState({ activeStartDate: activeStartDate });
       _this.props.onActiveDateChange({
         activeStartDate,
-        view: this.state.view
+        view: _this.state.view
       });
     }, _this.drillDown = function (activeStartDate) {
       if (!_this.drillDownAvailable) {
